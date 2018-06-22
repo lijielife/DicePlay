@@ -90,7 +90,7 @@ $normalWidth: 100rpx
 			justify-content: center
 			width: 50%
 			text-align: center
-			font-size: 32rpx
+			font-size: 40rpx
 			color: #333
 			margin-top: 40rpx
 

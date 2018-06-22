@@ -4,6 +4,7 @@ import dice3 from '@/assets/3.png'
 import dice4 from '@/assets/4.png'
 import dice5 from '@/assets/5.png'
 import dice6 from '@/assets/6.png'
+import sound from '@/assets/sound.mp3'
 
 rule =
 	diceCount: 5
@@ -11,7 +12,6 @@ rule =
 	closeTime: .25 # 两次最小间距时间, 默认 2
 	range: 3 # 摇一摇幅度
 	max: 6 # 骰子最大值
-	audioSrc: 'http://yss.yisell.com/yisell/ycys2018050819052088/sound/yisell_sound_201407291721333433_66366.mp3'
 
 export default
 	data: ->
@@ -29,7 +29,7 @@ export default
 
 	mounted: ->
 		this.listenShake()
-		this.innerAudioContext.src = rule.audioSrc
+		this.innerAudioContext.src = sound
 
 	methods:
 		listenShake: ->
