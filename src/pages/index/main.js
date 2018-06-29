@@ -6,7 +6,7 @@ app.$mount()
 
 export default {
   config: {
-		navigationBarTitleText: '摇骰子辅助工具',
-		// navigationBarBackgroundColor: '#d3ffd0'
+    navigationBarTitleText: '摇骰子辅助工具',
+    // navigationBarBackgroundColor: '#d3ffd0'
   }
 }
