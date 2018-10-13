@@ -2,15 +2,15 @@
 	"description": "项目配置文件。",
 	"setting": {
 		"urlCheck": true,
-		"es6": false,
+		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true
 	},
-	"miniprogramRoot": "./dist/",
 	"compileType": "miniprogram",
+	"libVersion": "1.5.4",
 	"appid": "wx370aae98dc3ead4b",
-	"projectname": "DicePlay",
+	"projectname": "dice-play",
 	"condition": {
 		"search": {
 			"current": -1,
@@ -18,10 +18,6 @@
 		},
 		"conversation": {
 			"current": -1,
-			"list": []
-		},
-		"game": {
-			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {

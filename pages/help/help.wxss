@@ -1,0 +1,71 @@
+/* pages/help/help.wxss */
+.container {
+  padding: 0;
+}
+
+.help-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.dices {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.dice {
+  display: inline-block;
+  line-height: 120rpx;
+  width: 120rpx;
+  text-align: center;
+  font-size: 64rpx;
+  box-sizing: border-box;
+  border: 1px solid #d8d8d8;
+  border-radius: 32rpx;
+}
+
+.left {
+  color: red;
+}
+
+.right {
+  color: green;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 32rpx 16rpx;
+  overflow-y: auto;
+}
+
+.content text {
+  margin-bottom: 16rpx;
+  font-size: 28rpx;
+}
+
+.special {
+  color: blue;
+  padding: 0 16rpx;
+  border-radius: 8rpx;
+  background: rgba(190, 190, 190, .4);
+}
+
+.count {
+  color: blue;
+  padding: 0 16rpx;
+  border-radius: 8rpx;
+  background: rgba(190, 190, 190, .4);
+}
+
+.number {
+  color: green;
+  padding: 0 16rpx;
+  border-radius: 8rpx;
+  background: rgba(190, 190, 190, .4);
+}

@@ -1,0 +1,15 @@
+<!--pages/dice/dice.wxml-->
+<view class="container">
+  <button class="click" bindtap="changeDices">不想摇? 点我!</button>
+  <view class='dices'>
+    <text class='dice' wx:for="{{dices}}" wx:key="{{index}}">{{item}}</text>
+  </view>
+  <view class='results'>
+    <text class='straight' wx:if="{{results.length === 1}}">顺子, 全部 0 个</text>
+    <text class='result' wx:if="{{results.length > 1}}" wx:for="{{results}}" wx:key="{{index}}">
+      {{item.count}} 个<text class='dice-small'>{{item.dice}}</text>
+    </text>
+  </view>
+  <button class="help" bindtap="clickHelp">?</button>
+  <ad unit-id="adunit-ede294d3b4c78650"></ad>
+</view>

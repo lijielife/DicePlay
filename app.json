@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/dice/dice",
+    "pages/help/help"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Dice",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,83 @@
+/* pages/dice/dice.wxss */
+.container {
+  padding: 0;
+}
+.click {
+  width: 100%;
+}
+
+.dices {
+  margin-top: 16rpx;
+  text-align: center;
+}
+
+.dice {
+  display: inline-block;
+  line-height: 120rpx;
+  width: 120rpx;
+  text-align: center;
+  font-size: 64rpx;
+  box-sizing: border-box;
+  border: 1px solid #d8d8d8;
+  border-radius: 32rpx;
+  color: #aa0000;
+}
+
+.dice-small {
+  display: inline-block;
+  line-height: 60rpx;
+  width: 60rpx;
+  /* border: 1px solid #d8d8d8; */
+  border-radius: 16rpx;
+  font-size: 48rpx;
+  color: #00aa00;
+}
+
+.dice:nth-child(3) {
+  display: block;
+  margin-left: calc(50% - 60rpx);
+}
+
+.dice:nth-child(2) {
+  margin-left: 120rpx;
+}
+
+.dice:nth-child(5) {
+  margin-left: 120rpx;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  border-left: 0;
+  border-bottom: 0;
+  margin: 16rpx 5% 0 5%;
+  min-height: 460rpx;
+}
+
+.straight {
+  line-height: 96rpx;
+  width: 100%;
+  text-align: center;
+  font-size: 48rpx;
+  box-sizing: border-box;
+  color: #0000aa;
+}
+
+.result {
+  line-height: 60rpx;
+  width: 50%;
+  text-align: center;
+  font-size: 48rpx;
+  box-sizing: border-box;
+  color: #333;
+}
+
+.help {
+  position: absolute;
+  top: 100rpx;
+  right: 16rpx;
+  width: 80rpx;
+  height: 80rpx;
+}

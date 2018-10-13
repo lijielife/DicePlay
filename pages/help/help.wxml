@@ -1,0 +1,29 @@
+<!--pages/help/help.wxml-->
+<view class="container">
+  <view class="help-container">
+    <view class="dices left">
+      <text class="dice">1</text>
+      <text class="dice">2</text>
+      <text class="dice">3</text>
+      <text class="dice">5</text>
+      <text class="dice">6</text>
+    </view>
+    <view class="content">
+      <text>左侧为您，右侧对手（可多个）。</text>
+      <text>规则：一人喊<text class="count">N</text>个<text class="number">X</text>，则另一人必须喊<text class="count">N + 1</text>个<text class="number">X</text>或<text class="count">N</text>个<text class="number">X + 1</text>又或<text class="count">N + 1</text>个<text class="number">X + 1</text>，这里<text class="special">+ 1</text>为例子，当然也可以是<text class="special">+ 2</text>，<text class="special">+ 3</text>。</text>
+      <text>胜利条件：某方猜测总数高于实际数，如场上共有<text class="count">4</text>个<text class="number">3</text>，而对手猜有<text class="count">5</text>个<text class="number">3</text>，则您可以开对方，当然反过来说也是成立。</text>
+      <text>特殊规则：<text class="special">1</text>为通用，即<text class="special">1</text>既可以代表<text class="special">1</text>，也可以代表任何数，如此刻场上您的<text class="special">2</text>则有<text class="special">2</text>个，一个是<text class="special">2</text>本身，还有个就是<text class="special">1 =>2</text>导致。</text>
+      <text>那么，开始吧：</text>
+      <text>假如若干回合后，您喊了<text class="count">4</text>个<text class="number">2</text>，对手手上握有<text class="count">2</text>个<text class="number">2</text>，他会选择开你（他觉得你没有<text class="count">2</text>个<text class="number">2</text>，因此他就输了），也可能他喊其他，我们姑且认为他也喊 2，那么根据规则，他必须喊大于<text class="count">4</text>个<text class="number">2</text>，假如他就是喊<text class="count">5</text>个<text class="number">2</text>，那么您博弈对方，可以开他，那么您赢了，因为一共只有<text class="count">4</text>个<text class="number">2</text>，也可以再喊其他，让对手开你，或继续。。。</text>
+      <text>至此，相信您有所了解该规则，感谢阅读。</text>
+    </view>
+    <view class="dices right">
+      <text class="dice">2</text>
+      <text class="dice">2</text>
+      <text class="dice">3</text>
+      <text class="dice">3</text>
+      <text class="dice">5</text>
+    </view>
+  </view>
+  <ad unit-id="adunit-ede294d3b4c78650"></ad>
+</view>
